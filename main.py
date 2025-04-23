@@ -8,10 +8,11 @@ from stats import sort_on_CharDicList
 
 
 def main():
-    #path = "books/frankenstein.txt"
+    
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
+    #path = "books/frankenstein.txt"
     path = sys.argv[1]
     book_path = sys.argv[1]
     text = get_book_text(path)

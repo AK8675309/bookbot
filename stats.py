@@ -38,3 +38,4 @@ def sort_on_CharDicList(char_dic_list):
     
     # Return the modified list
     return char_dic_list
+
